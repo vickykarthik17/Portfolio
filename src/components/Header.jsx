@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <div className="bg-white/75 backdrop-blur-xl rounded-xl shadow-lg border border-gray-200/50 p-8 text-center transition-all duration-300 hover:scale-[1.02] hover:shadow-xl">
       <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4" style={{ fontFamily: 'Petrona, serif' }}>
-        Venkata Sai Vikram Karthik Blood
+        Venkata Sai Vikram Karthik Krovi
       </h1>
       <p className="text-lg text-gray-700 mb-6 leading-relaxed">
         Final-year Computer Science undergraduate passionate about data-driven problem-solving and scalable web solutions.
