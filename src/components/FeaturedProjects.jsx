@@ -1,15 +1,18 @@
 import React from 'react';
+import petconnectImg from '../assets/images.jpeg';
+import documentorImg from '../assets/aiimg.jpg';
 
 const projects = [
   {
     title: 'PetConnect',
     description: 'Full-stack pet adoption platform with user authentication, messaging, and listings using React, Spring Boot, and MongoDB.',
-    image: '/images.jpeg' // Corrected path
+    image: petconnectImg, 
+    link:'https://pet-connect-psi.vercel.app/'
   },
   {
     title: 'Documentor – AI Research Assistant',
     description: 'Summarizes and answers questions from uploaded documents (.pdf, .txt, .docx) using FastAPI, sentence-transformers, and scikit-learn.',
-    image: '/aiimg.jpg'
+    image: documentorImg
   }
 ];
 
@@ -27,7 +30,7 @@ const FeaturedProjects = () => {
         {projects.map((project, index) => (
           <div key={index} className="space-y-4 group">
             <div className="aspect-[1.618/1] rounded-lg overflow-hidden shadow-lg group-hover:scale-105 transition-transform duration-300">
-           i   <img 
+              <img 
                 src={project.image}
                 alt={project.title}
                 className="w-full h-full object-cover"
