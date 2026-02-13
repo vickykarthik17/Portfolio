@@ -39,7 +39,7 @@ const Contact = () => {
 		// Using Web3Forms (free, no backend needed)
 		// Replace with your access key from https://web3forms.com
 		const formDataToSend = new FormData();
-		formDataToSend.append('access_key', '9491cbeb-83f5-4104-a131-937352ecd28d'); // Get from web3forms.com
+		formDataToSend.append('access_key', '66aad242-f2c1-4cd3-8cf7-fbe43b8c3d6b'); // Get from web3forms.com
 		formDataToSend.append('name', formData.name);
 		formDataToSend.append('email', formData.email);
 		formDataToSend.append('message', formData.message);
