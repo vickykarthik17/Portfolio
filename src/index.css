@@ -9,11 +9,19 @@
     line-height: 1.6;
     overflow-x: hidden;
   }
-  
+
   h1, h2, h3, h4, h5, h6 {
     font-family: 'Petrona', serif;
     font-weight: 700;
     line-height: 1.25;
+  }
+
+  /* Visible focus for keyboard users */
+  a:focus-visible,
+  button:focus-visible {
+    outline: none;
+    box-shadow: 0 0 0 2px white, 0 0 0 4px rgba(37, 99, 235, 0.6);
+    border-radius: 4px;
   }
 }
 
@@ -49,6 +57,11 @@
 /* Smooth scrolling */
 html {
   scroll-behavior: smooth;
+}
+
+/* Ensure skip-link is visible when focused (backup if JS loads late) */
+.skip-link:focus {
+  left: 0;
 }
 
 /* Animation for cards on load */

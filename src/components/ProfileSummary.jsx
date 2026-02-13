@@ -31,8 +31,7 @@ const ProfileSummary = () => {
         Profile Summary
       </h2>
       <p className="text-gray-700 mb-8 leading-relaxed">
-        I enjoy solving real-world problems using technology, transforming raw data into meaningful insights and products. 
-        I am passionate about machine learning, and scalable web solutions, and eager to collaborate and grow in dynamic tech environments.
+        I build data pipelines and full-stack applications, with experience in AWS (S3, RDS, Glue), React, Spring Boot, and the Python ML stack. I've shipped ETL and ML projects during internships and am looking for roles in software development, data engineering, or data science.
       </p>
       
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
